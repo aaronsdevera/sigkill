@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sigkill"
+version = "0.1.0"
+description = "Cross-platform decryption and export utility for Signal Desktop"
+authors = ["Aaron DeVera <aaronsdevera@protonmail.com"]
+license = "GNU Affero General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+pysqlcipher3 = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

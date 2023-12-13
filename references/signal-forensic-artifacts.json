@@ -1,0 +1,82 @@
+{
+    "Windows": [
+        {
+            "Container": "C:/Users/[USER]/AppData/Roaming/Signal/config.json",
+            "OS": "Windows",
+            "Artifact": "Decryption Key"
+        },
+        {
+            "Container": "C:/Users/[USER]/AppData/Roaming/Signal/sql/db.sqlite",
+            "OS": "Windows",
+            "Artifact": "SQLCipher File"
+        }
+    ],
+    "Darwin": [
+        {
+            "Container": "/Users/[USER]/Library/Application Support/Signal/config.json",
+            "OS": "Darwin",
+            "Artifact": "Decryption Key"
+        },
+        {
+            "Container": "/Users/[USER]/Library/Application Support/Signal/sql/db.sqlite",
+            "OS": "Darwin",
+            "Artifact": "SQLCipher File"
+        }
+    ],
+    "Linux": [
+        {
+            "Container": "/home/[USER]/.config/Signal/config.json",
+            "OS": "Linux",
+            "Artifact": "Decryption Key"
+        },
+        {
+            "Container": "/home/[USER]/.config/Signal/sql/db.sqlite",
+            "OS": "Linux",
+            "Artifact": "SQLCipher File"
+        }
+    ],
+    "iOS": [
+        {
+            "Container": "/var/mobile/Containers/Shared/AppGroup/UUID/grdb/signal.sqlite",
+            "OS": "iOS",
+            "Artifact": "SQLCipher File"
+        },
+        {
+            "Container": "GRDBDatabaseCipherKeySpec for GRDBKeyChainService",
+            "OS": "iOS",
+            "Artifact": "Signal iOS Keychain (Base64 encoded)"
+        },
+        {
+            "Container": "/var/mobile/Containers/Shared/AppGroup/UUID/Attachments",
+            "OS": "iOS",
+            "Artifact": "Message attachments (sent and received)"
+        },
+        {
+            "Container": "/var/mobile/Containers/Data/Application/UUID/Library/SplashBoard/Snapshots",
+            "OS": "iOS",
+            "Artifact": "Screenshots of the messaging screens"
+        }
+    ],
+    "Android": [
+        {
+            "Container": "/data/data/org.thoughtcrime.securesms/databases/signal.db",
+            "OS": "Android",
+            "Artifact": "SQLCipher File"
+        },
+        {
+            "Container": "Android Keystore",
+            "OS": "Android",
+            "Artifact": "Signal encryption key"
+        },
+        {
+            "Container": "org.thoughtcrime.securesms\\shared_prefs\\org.thoughtcrime.securesms_preferences.xml",
+            "OS": "Android",
+            "Artifact": "Telephone number registered with Signal account"
+        },
+        {
+            "Container": "org.thoughtcrime.securesms\\app_parts\\",
+            "OS": "Android",
+            "Artifact": "Message attachments (encrypted)"
+        }
+    ]
+}
